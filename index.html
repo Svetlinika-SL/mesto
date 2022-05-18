@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Проектная работа Яндекс Практикум, отделение Веб-разработка. Сайт о путешествии и интересных местах">
+  <meta name="keywords" content="Адаптивная вёрстка по макету Figma с применением JavaScript">
+  <meta name="author" content="Svetlana Lebedeva">
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="icon" type="image/svg/png" href="./image-sprint-4/camera.png">
+    <title>Mesto</title>   
+</head>
+<body class="root">
+  <!-- header -->
+  <header class="header">
+    <img class="header__logo" src="./image-sprint-4/logo.svg" alt="Логотип Место">
+  </header>
+  <main class="page">
+    <!-- profile -->
+    <section class="profile">
+      <img class="profile__avatar" src="./image-sprint-4/Custo.jpg" alt="Аватар">
+        <div class="profile__info">
+          <h1 class="profile__info-name">Жак-Ив Кусто</h1>
+          <button class="profile__info-button" type="button" aria-label="редактировать аватар профиля"></button>
+          <p class="profile__info-bio">Исследователь океана</p>
+        </div>
+        <button class="profile__user-button" type="button" aria-label="добавить фото"></button>
+    </section>
+    <!-- elements -->
+    <section class="elements">
+      <ul class="element__list">
+       
+      </ul>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <p class="footer__copyright">© 2022 Svetlana Lebedeva</p>
+  </footer>
+  <!-- popup -->
+  <div class="popup popup__edit-form">
+    <div class="popup__container">
+      <form class="popup__content">
+        <button class="popup__button-close" type="button" aria-label="close"></button> 
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <input class="popup__text popup__text-name" type="text" placeholder="Имя">
+        <input class="popup__text popup__text-bio" type="text" placeholder="Описание">
+        <input type="submit" class="popup__save" value="Сохранить">
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="./scripts/script.js"></script>
+</body>
+</html>

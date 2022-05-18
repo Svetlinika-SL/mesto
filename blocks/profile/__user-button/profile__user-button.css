@@ -1,0 +1,19 @@
+.profile__user-button {
+  width: 150px;
+  height: 50px;
+  margin-left: auto;
+  padding: 0;
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  background-color: #000000;
+  background-image: url('../../../image-sprint-4/plus.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.profile__user-button:hover {
+  opacity: .5;
+}
