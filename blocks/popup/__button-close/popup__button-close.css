@@ -1,3 +1,21 @@
 .popup__button-close {
-  
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background-image: url(../../../image-sprint-4/Close\ Icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.popup__button-close:hover {
+  opacity: .6;
+  transition: .3s;
 }

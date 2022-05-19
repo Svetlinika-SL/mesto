@@ -1,0 +1,11 @@
+.element__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 15px 31px 21px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
