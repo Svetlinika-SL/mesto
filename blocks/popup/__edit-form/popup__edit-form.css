@@ -1,12 +1,11 @@
 .popup__edit-form {
-  display: none;
-  justify-content: center;
-  align-items: center;
+  padding: 43px 0 0;
   margin: 0;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 768px) {
+  .popup__edit-form {
+    max-width: 282px;
+    padding: 75px 0 0;
+  }
 }
