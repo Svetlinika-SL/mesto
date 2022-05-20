@@ -1,4 +1,4 @@
-.element__list {
+.elements__list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
   grid-template-rows: 1fr 1fr;

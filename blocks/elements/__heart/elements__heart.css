@@ -1,4 +1,4 @@
-.element__heart {
+.elements__heart {
   width: 25px;
   height: 22px;
   background-image: url(../../../image-sprint-4/heart\ light.svg);
@@ -10,7 +10,7 @@
   transition: opacity .5s ease;
 }
 
-.element__heart:hover {
+.elements__heart:hover {
   opacity: .6;
   cursor: pointer;
 }
