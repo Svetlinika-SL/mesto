@@ -1,11 +1,13 @@
 .elements__container {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 15px 31px 21px;
+  padding: 25px 15px 25px 21px;
   background-color: #ffffff;
   border-radius: 10px;
   margin: 0 auto;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   overflow: hidden;
-  position: relative;
 }

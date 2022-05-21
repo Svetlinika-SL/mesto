@@ -8,7 +8,7 @@
   <meta name="author" content="Svetlana Lebedeva">
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" type="image/png" href="./image-sprint-4/camera.png">
-    <title>Mesto</title>   
+    <title>Место</title>   
 </head>
 <body class="root">
   <!-- header -->
@@ -79,19 +79,17 @@
     <p class="footer__copyright">© 2022 Svetlana Lebedeva</p>
   </footer>
   <!-- popup -->
-  <section class="popup">
-    <button class="popup__button-close" type="button" aria-label="close"></button>
+  <div class="popup">
     <div class="popup__container">
-      <div class="popup__content">
+      <button class="popup__button-close" type="button" aria-label="close"></button>
         <h2 class="popup__title">Редактировать профиль</h2>
         <form class="popup__edit-form" name="popupForm">
-          <input class="popup__input popup__input_type-name" type="text" name="username">
-          <input class="popup__input popup__input_type-job" type="text" name="job">
+          <input class="popup__input popup__input_type_name" type="text" name="username" placeholder="Имя">
+          <input class="popup__input popup__input_type_job" type="text" name="job" placeholder="Описание">
           <button type="submit" class="popup__button">Сохранить</button>
         </form>
-      </div>
     </div>
-</section>
-  <script src="./scripts/script.js"></script>
+  </div>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

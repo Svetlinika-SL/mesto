@@ -1,9 +1,9 @@
 .popup__button-close {
-  position: relative;
+  position: absolute;
   width: 32px;
   height: 32px;
-  left: 470px;
-  bottom: 190px;
+  top: -38px;
+  right: -38px;
   background-image: url(../../../image-sprint-4/CloseIcon.svg);
   background-repeat: no-repeat;
   background-color: transparent;
