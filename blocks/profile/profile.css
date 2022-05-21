@@ -4,14 +4,14 @@
   padding: 0;
 }
 
-@media screen and (min-width: 619px) and (max-width: 880px) {
+@media screen and (max-width: 880px) {
   .profile {
     align-items: center;
     padding: 0 10px;
   }
 }
 
-  @media screen and (min-width: 320px) and (max-width: 618px) {
+  @media screen and (max-width: 618px) {
     .profile {
       align-items: center;
       flex-direction: column;
