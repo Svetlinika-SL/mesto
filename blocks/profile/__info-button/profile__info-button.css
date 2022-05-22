@@ -22,7 +22,6 @@
     max-width: 18px;
     height: 18px;
     margin-top: 29px;
-    box-sizing: content-box;
-    background-size: auto;
+    background-size: 7.5px;
   }
 }

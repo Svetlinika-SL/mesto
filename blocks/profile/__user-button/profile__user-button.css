@@ -24,7 +24,6 @@
     height: 50px;
     margin: 0 auto;
     width: 282px;
-    box-sizing:content-box;
-    background-size: inherit;
+    background-size: 15px;
   }
 }
