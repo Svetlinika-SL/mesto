@@ -19,10 +19,9 @@
 }
 
 @media screen and (max-width: 618px) {
-    .profile__info {
-      grid-template-columns: 235px 47px;
-      padding: 0 0 36px 0;
-      margin-left: 0;
-      gap: 0 10px;
-    }
+  .profile__info {
+    padding: 0 0 36px 0;
+    margin-left: 0;
+    gap: 0 10px;
   }
+}

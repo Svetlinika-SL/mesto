@@ -1,7 +1,7 @@
 .profile__info-button {
   width: 24px;
   height: 24px;
-  background-image: url('../../../image-sprint-4/Edit\ Button.svg');
+  background-image: url('../../../image-sprint-4/EditButton.svg');
   background-color: #000000;
   border: 1px solid #FFFFFF;
   background-position: 50%;
@@ -19,10 +19,10 @@
 
 @media screen and (max-width: 767px) {
   .profile__info-button {
-      max-width: 18px;
-      height: 18px;
-      align-self: center;
-      margin-top: 29px;
-      box-sizing: content-box;
+    max-width: 18px;
+    height: 18px;
+    margin-top: 29px;
+    box-sizing: content-box;
+    background-size: auto;
   }
 }

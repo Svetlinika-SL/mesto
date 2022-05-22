@@ -6,6 +6,7 @@
   box-sizing: border-box;
   border: 2px solid #ffffff;
   background-color: #000000;
+  border-radius: 2%;
   background-image: url('../../../image-sprint-4/plus.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -24,5 +25,6 @@
     margin: 0 auto;
     width: 282px;
     box-sizing:content-box;
+    background-size: inherit;
   }
 }
