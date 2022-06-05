@@ -1,0 +1,17 @@
+.elements__delete {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-image: url(../../../image-sprint-4/Trash.svg);
+  width: 18px;
+  height: 19px;
+  align-self: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}
+
+.elements__delete:hover {
+  opacity: .6;
+}

@@ -1,0 +1,8 @@
+.elements__heart_active {
+  background-image: url('../../../image-sprint-4/BlackHeart.svg');
+  transition: opacity 0.3s ease;
+}
+
+.elements__heart_active:hover {
+  opacity: .5s;
+}

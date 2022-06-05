@@ -17,11 +17,14 @@ Flexbox
 Открыть файл index.html через любой браузер
 
 ## Планы доработки проекта:
-С помощью JavaScript дать возможность пользователю удалять и добавлять фото и менять описание к ним.
-Возможность ставить "like".
+Расширить возможности сайта с помощью JavaScript. 
+Добавить возможность сохранять фото добавленные пользователем.
 
-## Ссылка на макет в Figma:
+## Ссылка на макет в Figma проект 4:
 https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1
+
+## Ссылка на макет в Figma проект 5:
+https://www.figma.com/file/bjyvbKKJN2naO0ucURl2Z0/JavaScript.-Sprint-5?node-id=0%3A1
 
 ## Ссылка на репозиторий: 
 https://github.com/Svetlinika-SL/mesto.git

@@ -1,8 +1,9 @@
 .elements__item {
-  max-width: 282px;
+  width: 282px;
+  min-height: 361px;
   position: relative;
   background: #ffffff;
   border-radius: 10px;
   margin: 0 auto;
-  overflow: hidden;
+  overflow: hidden; 
 }
