@@ -1,4 +1,7 @@
 .elements__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 282px;
   min-height: 361px;
   position: relative;
