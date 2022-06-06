@@ -3,7 +3,7 @@ const infoButton = document.querySelector(".profile__info-button");
 const userName = document.querySelector(".profile__info-name");
 const jobName = document.querySelector(".profile__info-job");
 const closeButtonProfile = document.querySelector(".popup__close_profile");
-const popupEditProfile = document.querySelector(".popup__profile");
+const popupEditProfile = document.querySelector(".popup_edit_profile");
 const popupEditForms = document.querySelector(".popup__forms");
 const popupUserButton = document.querySelector(".profile__user-button");
 
