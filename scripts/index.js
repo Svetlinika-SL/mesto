@@ -30,7 +30,7 @@ const containerCards = [
 const infoButton = document.querySelector(".profile__info-button");
 const userName = document.querySelector(".profile__info-name");
 const jobName = document.querySelector(".profile__info-job");
-const closeButton = document.querySelector(".popup__button_close_profile");
+const closeButton = document.querySelector(".popup__button-close_profile");
 const popupEditProfile = document.querySelector(".popup_edit_profile");
 const popupEditForms = document.querySelector(".popup__edit-forms");
 const popupUserButton = document.querySelector(".profile__user-button");
@@ -47,8 +47,8 @@ const popupInputPlaceLink = document.querySelector(".popup__input_type_link");
 const popupCardPhoto = document.querySelector('.popup_card-photo');
 const popupImageCard = document.querySelector('.popup__image-card');
 const popupTitleCard = document.querySelector('.popup__title-card');
-const popupButtonClosePhoto = document.querySelector(".popup__button_close_photo");
-const popupButtonCloseCard = document.querySelector('.popup__button_close_crd');
+const popupButtonClosePhoto = document.querySelector(".popup__button-close_photo");
+const popupButtonCloseCard = document.querySelector('.popup__button-close_crd');
 
 /* переменные template */
 const elementsTemplate = document.querySelector("#elements-add").content.querySelector(".elements__item");
