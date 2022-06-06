@@ -3,20 +3,20 @@ const infoButton = document.querySelector(".profile__info-button");
 const userName = document.querySelector(".profile__info-name");
 const jobName = document.querySelector(".profile__info-job");
 const closeButtonProfile = document.querySelector(".popup__close_profile");
-const popupEditProfile = document.querySelector(".popup__edit_profile");
-const popupEditForms = document.querySelector(".popup__edit_forms");
+const popupEditProfile = document.querySelector(".popup__edit-profile");
+const popupEditForms = document.querySelector(".popup__forms");
 const popupUserButton = document.querySelector(".profile__user-button");
 
 /* переменные для попап place add */
 const popupPlaceAdd = document.querySelector(".popup_place_add");
 const userNameInput = document.querySelector(".popup__input_type_name");
 const jobInput = document.querySelector(".popup__input_type_job");
-const popupEditForm = document.querySelector(".popup__edit_form");
+const popupEditForm = document.querySelector(".popup__form");
 const popupInputPlaceTitle = document.querySelector(".popup__input_type_title");
 const popupInputPlaceLink = document.querySelector(".popup__input_type_link");
 
 /* переменные для попап фото */
-const popupCardPhoto = document.querySelector('.popup__card-photo');
+const popupCardPhoto = document.querySelector('.popup__photo');
 const popupImageCard = document.querySelector('.popup__image-card');
 const popupTitleCard = document.querySelector('.popup__title-card');
 const popupButtonClosePhoto = document.querySelector(".popup__close_photo");
@@ -92,12 +92,25 @@ const generateElementList = (cardData) => {
   elementsImgCard.src = cardData.link;
   titleNewElements.textContent = cardData.name;
 
+/* УВАЖАЕМАЯ ИРИНА, ПОКА МОИХ ЗНАНИЙ НЕ ХВАТАЕТ ЧТОБЫ ВЫНЕСТИ ФУНКЦИЮ ИЗ ФУНКЦИИ. Я ВПЕРВЫЕ ПОГЛОЩАЮ ЗНАНИЯ JS. 
+ТРУДНО, НО Я СТАРАЮСЬ!
+ЕСЛИ ВЫ МНЕ ПОМОЖЕТЕ ПРИОБРЕСТИ ТАКИЕ ЗНАНИЯ (И Я СМОГУ ИСПРАВИТЬ СВОИ НЕДОЧЕТЫ) Я БУДУ ОЧЕНЬ СЧАСТЛИВА. 
+СПАСИБО ЗА РЕВЬЮ! */
+
+
+  function handleElementsCard() {
+    popupImageCard.src = elementsImgCard.src;
+    popupImageCard.alt = titleElements.textContent;
+    popupTitleCard.textContent = titleElements.textContent;
+    openPopup(popupCardPhoto);
+  }
+
   elementsImgCard.addEventListener("click", handleElementsCard);
   elementsDelete.addEventListener("click", handleDeleteCard);
   likeElementsHeart.addEventListener("click", likeHeart);
   
   return templateElements;
-};
+  };
 
   const handleDeleteCard = (event) => {
     event.target.closest(".elements__item").remove();
@@ -111,12 +124,6 @@ const generateElementList = (cardData) => {
     renderElements(cardData);
   });
 
-  function handleElementsCard() {
-    popupImageCard.src = elementsImgCard.src;
-    popupImageCard.alt = titleElements.textContent;
-    popupTitleCard.textContent = titleElements.textContent;
-    openPopup(popupCardPhoto);
-  }
 
 /* обработчик событий попап */
 popupEditForms.addEventListener("submit", submitAddCard);
