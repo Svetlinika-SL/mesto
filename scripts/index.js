@@ -3,7 +3,7 @@ const infoButton = document.querySelector(".profile__info-button");
 const userName = document.querySelector(".profile__info-name");
 const jobName = document.querySelector(".profile__info-job");
 const closeButtonProfile = document.querySelector(".popup__close_profile");
-const popupEditProfile = document.querySelector(".popup__edit-profile");
+const popupEditProfile = document.querySelector(".popup__profile");
 const popupEditForms = document.querySelector(".popup__forms");
 const popupUserButton = document.querySelector(".profile__user-button");
 
@@ -16,7 +16,7 @@ const popupInputPlaceTitle = document.querySelector(".popup__input_type_title");
 const popupInputPlaceLink = document.querySelector(".popup__input_type_link");
 
 /* переменные для попап фото */
-const popupCardPhoto = document.querySelector('.popup__photo');
+const popupCardPhoto = document.querySelector('.popup_photo_card');
 const popupImageCard = document.querySelector('.popup__image-card');
 const popupTitleCard = document.querySelector('.popup__title-card');
 const popupButtonClosePhoto = document.querySelector(".popup__close_photo");
